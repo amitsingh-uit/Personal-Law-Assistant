@@ -1,0 +1,106 @@
+/* General */
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: #f2e9d8;
+}
+
+/* Navbar */
+nav {
+    background: #2c2b2b;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Banner */
+.court-bg {
+    background: url('court.jpg') center/cover;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: 2px 2px 6px black;
+}
+
+/* Containers */
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border: 2px solid #b89b5e;
+}
+
+/* Inputs */
+textarea, input {
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    border: 2px solid #b89b5e;
+    border-radius: 6px;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    background: #3c3b3b;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #242323;
+}
+
+.output {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f7f1e6;
+    border-left: 5px solid #b89b5e;
+    border-radius: 6px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .court-bg {
+        font-size: 24px;
+        height: 180px;
+    }
+}

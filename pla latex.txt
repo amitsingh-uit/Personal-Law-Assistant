@@ -1,0 +1,152 @@
+\documentclass{beamer}
+\documentclass{beamer}
+
+
+\usepackage{graphicx}
+\usepackage{lmodern}
+
+
+\usetheme{CambridgeUS}
+
+\setbeamertemplate{headline}{}
+\setbeamertemplate{footline}{}
+\setbeamertemplate{navigation symbols}{}
+
+
+\usebackgroundtemplate{
+\includegraphics[width=\paperwidth,height=\paperheight]{co.jpeg}
+}
+
+
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{frametitle}{fg=black}
+
+
+\title{Personal Law Assistant}
+\subtitle{A Web-Based Legal Information Platform}
+\author{Amit Singh}
+\institute{Department of Computer Science}
+\date{}
+
+
+\begin{document}
+
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}{Introduction}
+\begin{itemize}
+\item Personal Law Assistant is a web-based platform designed to provide general legal information and awareness to users.
+\item It helps users understand basic legal concepts through articles, FAQs, and resources.
+\item The system is intended for educational and informational purposes only.
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Purpose of the Project}
+\begin{itemize}
+\item To create an easy-to-use legal information website.
+\item To improve legal awareness among users.
+\item To provide organized legal content online.
+\item To reduce confusion related to basic legal concepts.
+\item To make legal information easily accessible online.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Problem Statement}
+\begin{itemize}
+\item Legal information is often complex and difficult to understand.
+\item Many people lack basic knowledge of laws and legal procedures.
+\item Existing legal resources are scattered across multiple sources.
+\item Common users face difficulty in finding correct legal information.
+\item There is a need for a simple and user-friendly legal platform
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Conceptual Background}
+\begin{itemize}
+\item The system follows a web-based application architecture.
+\item It uses frontend and backend technologies for development.
+\item Users interact with the system through a web browser.
+\item Backend handles data processing and content delivery.
+\item Focus is on simplicity, clarity, and accessibility.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Technologies Used}
+\begin{itemize}
+\item Frontend: HTML, CSS, JavaScript
+\item Backend: PHP / Node.js
+\item UI Framework: Bootstrap
+\item Web Browser: Google Chrome / Mozzila Firefox
+\end{itemize}
+\end{frame}
+
+\begin{frame}{System Architecture}
+\begin{itemize}
+\item User accesses the system using a web browser.
+\item Requests are sent to the backend server.
+\item Backend processes the request and fetches data.
+\item Database stores legal articles and information.
+\item Response is displayed to the user on the website.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Key Features}
+\begin{itemize}
+\item Legal articles and resources
+\item Search functionality
+\item FAQ section
+\item Contact form
+\item Responsive design
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Advantages}
+\begin{itemize}
+\item Easy access to legal information anytime.
+\item Simple and user-friendly interface.
+\item Saves time for users searching legal information.
+\item Helps improve legal awareness.
+\item Scalable and extendable system.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Limitations}
+\begin{itemize}
+\item Does not provide official legal advice.
+\item Information depends on accuracy of content.
+\item Limited to educational and informational use.
+\item Cannot replace professional legal consultation.
+\item Requires internet connectivity.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Future Scope}
+\begin{itemize}
+\item Chatbot-based legal assistance system.
+\item Multi-language support for wider reach.
+\item Integration with government legal portals.
+\item Advanced search and filtering options.
+\item Use of AI for legal guidance.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Conclusion}
+\begin{itemize}
+\item Personal Law Assistant is a useful legal information platform.
+\item It helps users understand basic legal concepts easily.
+\item The system improves legal awareness in society.
+\item Simple design makes it accessible to all users.
+\item With future upgrades, it has strong potential.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\centering
+\Huge Thank You
+\end{frame}
+
+\end{document}
